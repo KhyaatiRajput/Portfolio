@@ -1,0 +1,63 @@
+.intro-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;   
+  padding: 80px 50px 50px 50px; /* top padding to avoid navbar overlap */
+  background: linear-gradient(to right, #120312, #2a072a , #6d1d6d );
+  color: white;
+ overflow: hidden;
+}
+.stars{
+    line-height: normal;
+}
+
+.hi{
+    font-weight: bold;
+    font-size:x-large;
+    line-height: normal;
+}
+.name {
+ font-size:small;
+ font-weight: 100;
+ line-height: normal;
+}
+
+.website {
+  color: rgb(117, 13, 117);
+  font-weight: bold;
+  line-height: normal;
+}
+
+.intro-line{
+    font-size:xx-small;
+}
+
+
+.social-icon {
+  display: flex;   /* icons ko row me arrange karega */
+  gap: 5px;       /* icons ke beech 20px ka gap */
+}
+
+.social-icon a {
+  display: flex;            /* flex container banaye */
+  align-items: center;      /* vertically center kare */
+  text-decoration: none;    
+  color: inherit;
+}
+
+
+.icon {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.icon:hover {
+  transform: scale(1.3); /* thoda bada = bold lagta hai */
+}
+
+
+@media (max-width: 768px) {
+  .intro-right img {
+    width: 200px;
+  }
+}

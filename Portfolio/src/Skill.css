@@ -1,0 +1,36 @@
+.skill{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    padding: 0px 50px 50px 50px; /* top padding to avoid navbar overlap */
+    color: white;
+    overflow: hidden;
+    background: linear-gradient(to right, #0a010a,#5c185c , #2a072a );
+}
+
+.my-skill{  
+  color:white;
+  font-weight: bold;
+  line-height: normal;
+}
+.skill-line{
+  font-size: small;
+}
+
+.lng-tool{
+  font-size:xx-small;
+   font-weight: bold;
+
+}
+
+.tool-icon{
+  width: 25px;
+}
+
+
+
+.icon-row {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust this value for more/less space */
+}

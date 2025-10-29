@@ -2,6 +2,7 @@
 import './App.css'
 import Navbar from './Navbar/Navbar'
 import Intro from './Intro'
+import Skill from './Skill'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <idv>
         <Navbar/>
         <Intro/>
+        <Skill/>
       </idv>
     </>
   )
